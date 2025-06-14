@@ -1,7 +1,11 @@
+import Header from "../components/Header";
+import Section from "../components/Section";
+
 export default function Page() {
   return (
     <>
-      <h1>Hello</h1>
+      <Header />
+      <Section />
     </>
   );
 }
