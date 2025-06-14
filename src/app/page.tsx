@@ -1,11 +1,11 @@
 import Header from "../components/layout/Header";
-import Section from "../components/Section";
+import ApplicantListHeader from "../components/ApplicantListHeader/ApplicantListHeader";
 
 export default function Page() {
   return (
     <>
       <Header />
-      <Section />
+      <ApplicantListHeader />
     </>
   );
 }
